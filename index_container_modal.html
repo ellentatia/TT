@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Time Tracker &trade;</title>   
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min_customized.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <!--Normalize to adapt to different browsers-->
+    <link data-require="normalize@3.0.3" data-semver="3.0.3" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" />
+
+    <!--Checkbox function-->
+    <script type="text/javascript">
+
+    function roundToTwo(num) {    
+    return +(Math.round(num + "e+2")  + "e-2");
+    }
+
+    function checkboxes()
+    {
+     var modalContent = document.getElementById('modalContentContainer');
+     var inputElems = document.getElementsByTagName("input"),
+      count = 0;
+        
+      for (var i=0; i<inputElems.length; i++) {
+        if (inputElems[i].type == "checkbox" && inputElems[i].checked == true){
+            count++
+            total= roundToTwo(count*4.2);
+        }
+      }
+     modalContent.innerHTML = total +" %";
+    }
+
+           
+   </script>
+   <!--Modal Initialization-->
+   <script src="js/materialize.min.js"></script>
+   <script>
+      document.addEventListener("DOMContentLoaded", function() {
+       const box = document.querySelectorAll(".modal");
+       M.Modal.init(box, {
+           opacity:0.6,
+           inDuration:400,
+           outDuration:375,
+           dismissible:false
+       });
+     });
+   </script>
+        
+  
+   </head>
+
+    <body>
+        <center><h1>Time Tracker &trade;</h1></center>
+        
+        <div class="container">
+        <div class="card-panel yellow lighten-3">         
+            
+
+                
+            <!-- Page Content goes here -->
+            <p></p><p></p><p></p><p></p>
+            <div class="row">
+                    <div class="col s6">AM</div>
+                    <div class="col s6">PM</div>
+            </div>
+            <div class="row">
+                    <div class="col s6">
+                            <div class="row">
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                            </div>
+                    </div>
+                    <div class="col s6">
+                            <div class="row">
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span ></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                                    <div class="col s1"><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
+                            </div>
+                    </div>
+                    
+                    <div class="col s6">
+                            <div class="row">
+                                    <div class="col s1">1</div>
+                                    <div class="col s1">2</div>
+                                    <div class="col s1">3</div>
+                                    <div class="col s1">4</div>
+                                    <div class="col s1">5</div>
+                                    <div class="col s1">6</div>
+                                    <div class="col s1">7</div>
+                                    <div class="col s1">8</div>
+                                    <div class="col s1">9</div>
+                                    <div class="col s1">10</div>
+                                    <div class="col s1">11</div>
+                                    <div class="col s1">12</div>
+                            </div>
+                    
+                    </div>
+                    
+                             
+                    <div class="col s6">
+                            <div class="row">
+                                    <div class="col s1">1</div>
+                                    <div class="col s1">2</div>
+                                    <div class="col s1">3</div>
+                                    <div class="col s1">4</div>
+                                    <div class="col s1">5</div>
+                                    <div class="col s1">6</div>
+                                    <div class="col s1">7</div>
+                                    <div class="col s1">8</div>
+                                    <div class="col s1">9</div>
+                                    <div class="col s1">10</div>
+                                    <div class="col s1">11</div>
+                                    <div class="col s1">12</div>
+                            </div>
+                    </div>
+            </div>
+            <p></p>
+            <p></p>
+            <!-- Modal Trigger -->
+            
+            <div>
+                <center><button id="calulcate" class="btn waves-effect blue-grey darken-4 modal-trigger" 
+                    type= "submit" value="calculate" data-target="choice1" onclick="checkboxes()">CALCULATE</button></center>         
+                
+            </div>
+            <div class="modal" id="choice1">
+                <div class="modal-content">
+                        <p><h1> The weekly average exposure to your language is </h1></p>
+                    <div class="modal-body">
+                        <div><h1 id="modalContentContainer"></h1>
+                    
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal-footer">
+                    <button class="btn blue-grey darken-4">Snapshot</button>
+                    <button class="btn amber darken-3 modal-close">Cancel</button>
+                </div>
+            </div>
+         
+            
+            
+        </div>
+        </div>
+        
+        
+    </body>
+</html>

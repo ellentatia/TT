@@ -1,0 +1,70 @@
+/* Styles go here */
+
+/* Styles go here */
+
+@import url("materialize-custom.css");
+
+.label{
+  display: block;
+  margin-bottom: 8px;
+}
+.trans-bg {
+  transition: background 0.25s;
+}
+.btn-circle {
+  border-radius:100%;
+}
+.flex-vcontainer,
+.flex-conainer-center,
+.flex-container-around,
+.flex-container-between {
+  display:flex;
+}
+.flex-vcontainer {
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+.flex-container-center {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.flex-container-around {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.flex-container-between {
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+
+.flex-item {
+  flex: 0 1 auto;
+}
+.flex-item-grow {
+  flex: 1 1 auto;
+}
+.flex-item-full {
+  flex: 1;
+}
+.flex-item-center{
+  align-self: center;
+}
+
+
+/* height + width classes */
+.fullheight{height:100%}.screenheight{height:100vh}.height-5{height: 5rem}.height-10{height: 10rem}.height-20{height: 10rem}.height-30{height: 30rem}
+.fullwidth{width:100%}.screenwidth{width:100vw}
+
+/* cursors */
+.pointer {
+  cursor: pointer;
+}
+
+/* helpers */
+.m-a-1{margin:1rem;}.m-b-1{margin-bottom:1rem;}
+.p-a-1{padding:1rem;}.p-b-1{padding-bottom:1rem;}
