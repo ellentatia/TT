@@ -5,10 +5,12 @@
  */
 
 p#tac {
-font-size: 15px;
+font-size: 1.64rem;
+line-height: 110%;
 }
 p#tac span {
-font-size: 30px;
+  font-size: 4.2rem;
+  line-height: 110%;
 }
 
 .materialize-red {
