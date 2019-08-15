@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function()
            opacity:0.6,
            inDuration:400,
            outDuration:375,
+           dismissible: true,
 
        });
  });
