@@ -4,6 +4,7 @@
 
 
 @font-face {
+
     font-family:adelle-sans !important;
     font-weight:700; !important;
     font-style: normal!important;
@@ -17,17 +18,17 @@
     font-weight: 700!important;
    }
 
-   .h1 {
+.h1 {
     font-family: adelle-sans!important;
-    font-size: 85px!important;
+    font-size: 100px!important;
     line-height: 62px!important;
-    font-style: normal!important;
+    font-style: bold!important;
     font-weight: 700!important;
    }
 
    /*!background
    */
-   .background{
+.background{
     font-family: adelle-sans!important;
     font-style: normal;
     font-weight: 700;
