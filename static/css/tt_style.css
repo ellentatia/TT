@@ -249,6 +249,31 @@
 
    /*!page-footer
    */
+.page-footer {
+  padding-top: 20px;
+  color: black;
+  background-color: transparent;
+}
+
+.page-footer .footer-copyright {
+  overflow: hidden;
+  min-height: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0px;
+  color: rgba(0,0,0,1);
+  background-color: rgba(0, 0, 0, 0);
+}
 
    /*!button
    */
