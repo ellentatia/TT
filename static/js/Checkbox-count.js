@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function()
        const box = document.querySelectorAll(".modal");
        M.Modal.init(box, {
            opacity:0.6,
-           inDuration:400,
-           outDuration:375,
+           inDuration:250,
+           outDuration:250,
            dismissible: true,
 
        });
