@@ -236,7 +236,7 @@
   float: left;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 0 0 rem;
+  padding: 0 0 rem !important;
   min-height: 1px;
 }
 
