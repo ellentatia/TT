@@ -2,14 +2,6 @@
 *Materilize and customized style
 */
 
-
-@font-face {
-
-    font-family:adelle-sans !important;
-    font-weight:700; !important;
-    font-style: normal!important;
-   }
-
 .paragraph {
     font-family: adelle-sans!important;
     font-size: 50px!important;
