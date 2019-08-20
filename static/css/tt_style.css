@@ -3,11 +3,19 @@
 */
 .h1 {
     font-family: adelle-sans!important;
-    font-size: 5px!important;
-    line-height: 16px!important;
-    font-style: bold!important;
+    line-height: 1em!important;
+    font-style: normal!important;
     font-weight: 700!important;
    }
+.h2 {
+    font-family: adelle-sans!important;
+    font-size: 25px!important;
+    line-height: 1.2em!important;
+    font-style: normal!important;
+    font-weight: 700!important;
+    letter-spacing: 0px;
+    font-weight: 100;
+}
 
 .paragraph {
     font-family: adelle-sans!important;
