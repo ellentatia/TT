@@ -3,16 +3,15 @@
 */
 .h1 {
     font-family: adelle-sans!important;
-    font-size: 10px!important;
-    line-height: 62px!important;
+    font-size: 5px!important;
+    line-height: 16px!important;
     font-style: bold!important;
     font-weight: 700!important;
    }
 
 .paragraph {
     font-family: adelle-sans!important;
-    font-size: 5px!important;
-    line-height: 16px!important;
+    font-size: 2px!important;
     font-style: normal!important;
     font-weight: 400!important;
    }
