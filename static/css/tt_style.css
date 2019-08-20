@@ -10,6 +10,18 @@
     font-weight: 700!important;
    }
 
+html {
+  line-height: 1;
+  font-family: adelle-sans !important;
+  font-weight: 700!important;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.z-depth-0 {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .h1 {
     font-family: adelle-sans!important;
     font-size: 100px!important;
