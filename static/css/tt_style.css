@@ -1,14 +1,20 @@
 /*!
 *Materilize and customized style
 */
-
-
-.paragraph {
+.h1 {
     font-family: adelle-sans!important;
     font-size: 50px!important;
     line-height: 62px!important;
-    font-style: normal!important;
+    font-style: bold!important;
     font-weight: 700!important;
+   }
+
+.paragraph {
+    font-family: adelle-sans!important;
+    font-size: 16px!important;
+    line-height: 62px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
    }
 
 .a {
@@ -29,13 +35,6 @@
           box-shadow: none !important;
 }
 
-.h1 {
-    font-family: adelle-sans!important;
-    font-size: 100px!important;
-    line-height: 62px!important;
-    font-style: bold!important;
-    font-weight: 700!important;
-   }
 
    /*!background
    */
