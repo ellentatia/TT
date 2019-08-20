@@ -66,6 +66,7 @@
 
              <p></p><p></p><p></p><p></p>
             <div class="row">
+                <div class="row">
                         <div class="grid-example col s1 m1 l1">AM</div>
                         <div class="grid-example col s11 m11 l11">
 
@@ -83,6 +84,8 @@
                                 <div class="col s1"><span style="font-size:large black ">&nbsp;11</span><label><input type="checkbox" id="box-0" class="filled-in z-depth-0" /><span></span></label></div>
 
                         </div>
+                </div>
+                <div class="row">
 
                         <div class="grid-example col s1 m1 l1">PM</div>
 
@@ -108,11 +111,13 @@
 
             <!-- Modal Trigger -->
 
-            <div>
+            <div class="row">
                 <center><button id="calulcate" class="btn waves-effect blue-grey darken-4 z-depth-0 modal-trigger"
                     type= "submit" value="calculate" data-target="choice1" onclick="checkboxes()">CALCULATE</button></center>
 
             </div>
+        </div>
+        <!-- Modal content -->
             <div class="modal" id="choice1">
                 <div style="text-align:right">
                 <button class="btn modal-close z-depth-0" style="background-color:white font-color:black">x</button>
@@ -128,21 +133,23 @@
                 <div class="modal-footer">
                     <center><button onclick="takeScreenShot()" class="btn waves-effect blue-grey darken-4">Snapshot</button>
 
-                    <a href="https://www.thealmacollective.com/learn-and-grow"><button class="btn waves-effect blue-grey darken-4">Learn More</button></a>
+                    <a target="_blank" href="https://www.thealmacollective.com/learn-and-grow" style="color:black strong;"><button class="btn waves-effect blue-grey darken-4">Learn More</button></a>
 
                     </center>
                 </div>
             </div>
 
             <div class="page-footer" style="text-align:center">
-                <a href="https://www.thealmacollective.com/learn-and-grow">learn more</a>
-                <a href="#">|</a>
-                <a href="https://www.thealmacollective.com/about-us">about us</a>
+                <a target="_blank" href="https://www.thealmacollective.com/learn-and-grow" style="color:black strong;">learn more</a>
+                <a href="#"style="color:black strong;">|</a>
+                <a target="_blank" href="https://www.thealmacollective.com/about-us"style="color:black strong;">about us</a>
 
-            <p>The Time Tracker™ is a tool developed by <a href="http://www.thealmacollective.com/">The Alma Collective</a> to make your efforts in raising multilingual
+            <div class="row">
+            <p>The Time Tracker™ is a tool developed by <a target="_blank" href="http://www.thealmacollective.com/" style="color:black strong;">The Alma Collective</a> to make your efforts in raising multilingual
             children tangible. There’s no need to open and account or give us your name at this stage. It is an invitation to play,
-            explore, and improve. We’d love to <a href="#">hear your feedback </a> on it.
+            explore, and improve. We’d love to <a target="_blank" href="#" style="color:black strong;">hear your feedback </a> on it.
             </p>
+            </div>
             </div>
 
 
