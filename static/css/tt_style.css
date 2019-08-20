@@ -11,13 +11,13 @@
     font-weight: 700!important;
    }
 
-a {
+.a {
     color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
 
-html {
+.html {
   line-height: 1;
   font-family: adelle-sans !important;
   font-weight: 700!important;
