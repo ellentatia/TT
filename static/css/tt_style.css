@@ -232,6 +232,13 @@
 
    /*!container
    */
+.row .col {
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 0 rem;
+  min-height: 1px;
+}
 
    /*!background
    */
