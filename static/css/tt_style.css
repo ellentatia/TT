@@ -1,6 +1,27 @@
 /*!
 *Materilize and customized style
 */
+.copy {
+    font-family: adelle-sans!important;
+    font-size: 10pt!important;
+    line-height: 14pt!important;
+   }
+.headline {
+    font-family: adelle-sans!important;
+    font-size: 30pt!important;
+    line-height: 30pt!important;
+   }
+.description {
+    font-family: adelle-sans!important;
+    font-size: 8pt!important;
+    line-height: 12pt!important;
+   }
+.number {
+    font-family: adelle!important;
+    font-size: 80pt!important;
+    line-height: 84pt!important;
+    color:#fff59d
+ }
 .h1 {
     font-family: adelle-sans!important;
     font-size: 25px!important;
