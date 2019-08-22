@@ -47,14 +47,14 @@
 
 .a {
     color: rgba(0, 0, 0, 0.87)!important;
-    text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
+    text-decoration: bold;
+    -webkit-tap-highlight-color:  rgba(0, 0, 0, 0.87);
 }
 
 .html {
-  line-height: 1;
+  line-height: 1!important;
   font-family: adelle-sans !important;
-  font-weight: 700!important;
+  font-weight: bold!important;
   color: rgba(0, 0, 0, 0.87);
 }
 
