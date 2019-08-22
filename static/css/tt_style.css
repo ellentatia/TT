@@ -47,8 +47,8 @@
 
 .a {
     color: rgba(0, 0, 0, 0.87)!important;
-    text-decoration: bold;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.87)!important;
+    text-decoration: underline !important;
+    font-weight: bold!important;
 }
 
 .html {
