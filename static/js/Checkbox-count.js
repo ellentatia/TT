@@ -15,7 +15,7 @@ function checkboxes()
             total= roundToTwo(count*4.2);
         }
       }
-     modalContent.innerHTML = total +"%";
+     modalContent.innerHTML = total+"%";
  }
 
 document.addEventListener("DOMContentLoaded", function()
