@@ -45,7 +45,7 @@
    }
 .headlineB {
     font-family: adelle-sans!important;
-    color:black!important;
+    color: rgba(0,0,0,1)!important;
     font-size: 30pt!important;
     line-height: 30pt!important;
     font-weight: 700!important;
