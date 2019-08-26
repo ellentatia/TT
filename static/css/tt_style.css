@@ -20,7 +20,7 @@
   pointer-events: none;
   visibility: hidden;
   background-color: #323232;
-  font-family: Adele-sans;
+  font-family: Adele-sans important;
   font-size: 0.8em;
   font-weight: 700;
 }
