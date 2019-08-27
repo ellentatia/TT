@@ -30,7 +30,12 @@ document.addEventListener("DOMContentLoaded", function()
        });
  });
 
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.tooltipped');
-    var instances = M.Tooltip.init(elems, options);
+document.addEventListener('DOMContentLoaded', function()
+{
+    const elems = document.querySelectorAll('.tooltipped');
+     M.Tooltip.init(elems, {
+         delay: 50,
+         tooltip: 'ola mundo',
+         position: 'bottom'
+     });
 });
