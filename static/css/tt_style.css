@@ -2,6 +2,11 @@
 *Materilize and customized style
 */
 
+
+.container {
+    width: 25%!important;
+}
+
 .hyperlink {
     font-family: adelle-sans!important;
     font-size: 8pt!important;
