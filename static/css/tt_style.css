@@ -1,15 +1,6 @@
 /*!
 *Materilize and customized style
 */
-.tooltipped {
-  font-family: adelle-sans;
-  font-size: 12px;
-  color:  rgba(0,0,0,1);
-  min-height: 36px;
-  line-height: 120%;
-  text-align: justify;
-  background-color: #fff59d;
-}
 
 .hyperlink {
     font-family: adelle-sans!important;
@@ -108,7 +99,7 @@
   position: fixed;
   left: 0;
   right: 0;
-  background-color: #fafafa;
+  background-color:yellow lighten-3;
   padding: 0;
   max-height: 90% !important;
   width: 90% !important;
