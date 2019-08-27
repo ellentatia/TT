@@ -34,8 +34,13 @@ document.addEventListener('DOMContentLoaded', function()
 {
     const elems = document.querySelectorAll('.tooltipped');
      M.Tooltip.init(elems, {
-         delay: 50,
-         tooltip: 'ola mundo',
-         position: 'bottom'
+         exitDelay:0,
+         enterDelay:200,
+         html: 'Time Tracker!',
+         margin:5,
+         inDuration:300,
+         outDuration:250,
+         position: 'right',
+         transitionMovement:10,
      });
 });
