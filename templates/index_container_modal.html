@@ -30,14 +30,13 @@
               <center>
                   <br/><br/>
                   <img src="/static/logoapp.png" width="150" alt="Logo do App"/>
+              </center>
 
                   <br>
 
-                  <a class="tooltipped" data-position="right" data-tooltip="There are 24 hours in a day and you have 24 blocks. Think about
-yesterday. When was your child exposed to your language? Click on every block this applies to. When you finish, hit 'calculate' to see
-your result. Try to answer intuitively. Nobody will judge you. This result is for your eyes only (unless you want to share it of course)">
-<span class="headlineB" style="color: rgba(0,0,0,1)"> Time Tracker&trade;</span></a>
-              </center>
+                  <div class="tooltipped" data-position="bottom" data-tooltip="There are 24 hours in a day" >
+                      Time Tracker&trade;
+                  </div>
 
       </div>
      <br>
@@ -181,14 +180,14 @@ your result. Try to answer intuitively. Nobody will judge you. This result is fo
 <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!--Checkbox function-->
 <!--Modal Initialization-->
      <script src="/static/js/Checkbox-count.js"></script>
 
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.tooltipped');
-    var instances = M.Tooltip.init(elems, options);
+$(document).ready(function(){
+    $('.tooltipped').tooltip();
   });
     </script>
   </body>
