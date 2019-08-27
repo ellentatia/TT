@@ -1,8 +1,13 @@
 /*!
 *Materilize and customized style
 */
-.material-tooltip .backdrop{
-      background-color: #fff59d;
+
+.material-toolip {
+  background:#fff59d;
+}
+.material-tooltip .tooltip-content
+{
+  font-size:12px;
 }
 
 .hyperlink {
