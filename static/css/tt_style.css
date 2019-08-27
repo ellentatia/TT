@@ -7,7 +7,7 @@
   z-index: 2000;
   background-color: transparent;
   border-radius: 2px;
-  color: #fff;
+  color: #323232!important;
   min-height: 36px;
   line-height: 120%;
   opacity: 0;
@@ -19,8 +19,8 @@
   top: 0;
   pointer-events: none;
   visibility: hidden;
-  background-color: #323232;
-  font-family: Adele-sans important;
+  background-color:#fff!important;
+  font-family: Adele-sans!important;
   font-size: 0.8em;
   font-weight: 700;
 }
