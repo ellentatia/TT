@@ -1,8 +1,8 @@
 /*!
 *Materilize and customized style
 */
-.backdrop{
-  background-color: #fff59d;
+.material-tooltip .backdrop{
+      background-color: #fff59d;
 }
 
 .hyperlink {
