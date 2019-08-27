@@ -185,5 +185,11 @@ your result. Try to answer intuitively. Nobody will judge you. This result is fo
 <!--Modal Initialization-->
      <script src="/static/js/Checkbox-count.js"></script>
 
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.tooltipped');
+    var instances = M.Tooltip.init(elems, options);
+  });
+    </script>
   </body>
 </html>
