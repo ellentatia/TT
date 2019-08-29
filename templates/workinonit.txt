@@ -55,19 +55,19 @@
      <br>
      <br>
 
-     <div class="show-on-medium-and-up hide-on-small-only">
+     <div class="hide-on-small-only">
      <div class="container">
 
             <div class="row">
-                <div class="col s6" style="padding: 0 .05rem;"><span class="copyB left-align" style="line-height: 14pt;font-weight: bold;">&nbsp;&nbsp;&nbsp;AM</span></div>
-                <div class="col s6" style="padding: 0 .05rem;"><span class="copyB left-align" style="line-height: 14pt;font-weight: bold;">&nbsp;&nbsp;&nbsp;PM</span></div>
+                <div class="col s6" style="padding: 0 .05rem;"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;&nbsp;AM</span></div>    
+                <div class="col s6" style="padding: 0 .05rem;"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;&nbsp;PM</span></div>  
+            
 
 
-
-
+        
                     <div class="col l6" style="padding: 0 .05rem;">
-
-
+                    
+                    
 
                                 <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in z-depth-0" /><span></span></label></div>
                                 <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in z-depth-0" /><span></span></label></div>
@@ -82,14 +82,14 @@
                                 <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in z-depth-0" /><span></span></label></div>
                                 <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in z-depth-0" /><span></span></label></div>
                     </div>
+                    
+                    
+        
 
-
-
-
-
+         
                     <div class="col l6" style="padding: 0 .05rem;">
 
-
+                    
 
                                 <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
                                 <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
@@ -104,15 +104,15 @@
                                 <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
                                 <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
                     </div>
+                    
 
+                
+         
 
-
-
-
-
+         
                 <div class="col l6" style="padding: 0 .05rem;">
-
-
+                                        
+                    
 
                             <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;12</span></div>
                             <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;&nbsp;1</span></div>
@@ -128,11 +128,11 @@
                             <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;11</span></div>
                     </div>
 
-
-
+                   
+                
 
                 <div class="col l6" style="padding: 0 .05rem;">
-
+                                        
                             <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;12</span></div>
                             <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;&nbsp;1</span></div>
                             <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;&nbsp;2</span></div>
@@ -147,10 +147,10 @@
                             <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;11</span></div>
                     </div>
 
-
+                   
                    </div>
-
-
+                
+        
 
                 <br>
                 <br>
@@ -213,15 +213,15 @@
      </div>
     </div>
 
-    <div class="show-on-small hide-on-med-and-up">
+    <div class="hide-on-med-and-up">
         <div class="container" >
-
+   
            <div class="row">
                    <div class="col s12 m12 l12">
                        <div class="col s1"style="text-align:right"><span class="copyB" style="font-family: adelle-sans; line-height: 14pt;font-weight: bold;">&nbsp;&nbsp;</span></div>
                        <div class ="col s11 m11 l11">
                        <div class ="col s12 m12 l12">
-
+   
                                <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;12</span></div>
                                <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;&nbsp;1</span></div>
                                <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;&nbsp;2</span></div>
@@ -235,17 +235,17 @@
                                <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;10</span></div>
                                <div class="col s1"><span class="copyB" style="line-height: 14pt;font-weight: bold;">&nbsp;11</span></div>
                        </div>
-
+   
                       </div>
                    </div>
            </div>
-
+   
            <div class="row">
                        <div class="col s12 m12 l12">
                        <div class="col s1"style="text-align:right;"><span class="copyB" style="font-family: adelle-sans; line-height: 14pt;font-weight: bold;">AM</span></div>
                        <div class="col s11 m11 l11">
                        <div class ="col s12 m12 l12">
-
+   
                                    <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in z-depth-0" /><span></span></label></div>
                                    <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in z-depth-0" /><span></span></label></div>
                                    <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in z-depth-0" /><span></span></label></div>
@@ -262,14 +262,14 @@
                        </div>
                        </div>
            </div>
-
+   
             <div class="row">
                        <div class="col s12 m12 l12">
-
+   
                        <div class="col s1" style="text-align:right;"><span class="copyB" style="font-family: adelle-sans; line-height: 14pt;font-weight: bold;">PM</span></div>
                        <div class="col s11 m11 l11">
                        <div class="col s12 m12 l12">
-
+   
                                    <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
                                    <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
                                    <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
@@ -284,16 +284,16 @@
                                    <div class="col s1" ><label><input type="checkbox" id="box-0" class="filled-in" /><span></span></label></div>
                        </div>
                        </div>
-
+   
                    </div>
             </div>
-
+   
                    <br>
                    <br>
-
+   
                <!-- Modal Trigger -->
-
-
+   
+   
                    <center><button id="calculate" class="btn waves-effect blue-grey darken-4 z-depth-0 modal-trigger" style="font-color:white bold"
                        type= "submit" value="calculate" data-target="choice1" onclick="checkboxes()">CALCULATE</button></center>
                    <div>
@@ -304,7 +304,7 @@
                    <a target="_blank" href="https://www.thealmacollective.com/about-us" class="hyperlink" style="font-size: 8pt; line-height: 12pt; text-decoration: underline; font-weight: bold; color:black">about us</a>
                    </center>
                    </div>
-
+   
            <!-- Modal content -->
                <div class="modal" id="choice1" style="top:15%; bottom:15%; width:80%">
                    <div style="text-align:right">
@@ -313,30 +313,30 @@
                <br>
                <br>
                <br>
-
+   
                <div class="modal-content">
                <div class="modal-body" style="text-align:center">
                    <div id="modalContentContainer" class="number" style="font-weight: 700!important;"></div>
-
+   
                     <div class="flow-text"><center><p class="descriptionB" style="font-family: adelle-sans; font-size: 10pt; line-height:14pt;font-weight: 700;"> This is your child's weekly average exposure to your language based on your predictions.
                      <br><a href="https://tac-tt.herokuapp.com/" class="hyperlink" style="color:black; font-size: 8pt; line-height: 12pt; text-decoration: underline; font-weight: bold">Want to have another go?</a></p></center>
                    </div>
                    <div>
                        <center><a target="_blank" href="https://www.thealmacollective.com/timetracker-signup" ><button class="btn waves-effect blue-grey darken-4 z-depth-0 description modal-trigger" style="font-family: adelle-sans; font-size: 8pt; line-height: 12pt; font-color:white bold; text-transform:none;">&nbsp;&nbsp; Sign Up &nbsp;&nbsp;</button></a>
-
+   
                                <a target="_blank" href="https://www.thealmacollective.com/timetracker"><button class="btn waves-effect blue-grey darken-4 z-depth-0 description modal-trigger" style="font-family: adelle-sans; font-size: 8pt; line-height: 12pt; font-color:white bold; text-transform:none;">Learn More</button></a>
-
+   
                        </center>
                    </div>
                </div>
                </div>
                </div>
-
-
+   
+   
                  <!-- End of Modal -->
                <div class="row" style="text-align:center">
-
-
+   
+   
                <p class="descriptionR" style="font-family: adelle-sans; font-size: 8pt; line-height: 12pt;">The Time Tracker™ is a tool developed by <a target="_blank" href="http://www.thealmacollective.com/" class="hyperlink" style="color:black; font-size: 8pt; line-height: 12pt; text-decoration: underline; font-weight: bold">The Alma Collective</a> to make your efforts in raising multilingual
                children tangible. There’s no need to open and account or give us your name at this stage. It is an invitation to play,
                explore, and improve. We’d love to <a href="mailto:ellen@thealmacollective.com" class="hyperlink" style="color:black; font-size: 8pt; line-height: 12pt; text-decoration: underline; font-weight: bold; font-color:black">hear your feedback </a> on it.
@@ -344,8 +344,8 @@
                <br>
                <br>
                </div>
-
-
+   
+   
         </div>
        </div>
 
