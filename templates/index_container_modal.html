@@ -295,9 +295,17 @@
      <script>
          $(document).on('click', '#show',function(e)
          {
-             var toastHTML = '<span>Do you see the 24 blocks? Each represents one hour of your day.</span><button class="btn-flat toast-action">Got it!</button>';
+             var toastHTML = '<span>Do you see the 24 blocks? Each represents one hour of your day.</span> <button class="btn-flat toast-action" id="show2" value="show2">Got it!</button>';
              M.toast({html: toastHTML});
          })
+
+         $(document).on('click', '#show2',function(e)
+         {
+             toast2HTML ='<span>second text? Each represents one hour of your day.</span> <button class="btn-flat toast-action">Got it!</button>';
+             M.toast({html: toas2tHTML});
+         })
+
+
 
     </script>
 
