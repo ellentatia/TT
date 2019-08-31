@@ -30,7 +30,7 @@
 
               <center>
                   <br/><br/>
-                  <img src="/static/logoapp.png" width="150" alt="Logo do App"/>
+                  <a target="_blank" href="https://www.thealmacollective.com"><img src="/static/logoapp.png" width="150" alt="Logo do App"/></a>
               </center>
 
                   <br>
@@ -295,7 +295,7 @@
      <script>
          $(document).on('click', '#show',function(e)
          {
-             var toastHTML = '<span>Do you see the 24 blocks? Each represents one hour of your day.</span> <a id="show2" value="show2" class="btn-flat toast-action" style="padding: 0 0px;height: 20px; color:black; color:black; background-color:transparent; font-size: 8pt; line-height: 12pt; text-decoration: underline; font-weight: bold;text-transform:none">Got it</a>';
+             var toastHTML = '<span>Do you see the 24 blocks? Each represents one hour of your day.</span> <button id="show2" value="show2" class="btn-flat toast-action">Got it</button>';
              M.toast({html: toastHTML});
          })
 
