@@ -296,9 +296,18 @@
      <script>
          $(document).on('click','#show',function(e)
          {
+             var toastHTML = '<span>Do you see the 24 blocks? Each represents one hour of your day.</span> <button id="show2" class="btn-flat toast-action">Got it</button>';
+             M.toast({html: toastHTML});
+         });
+
+         $(document).on('click','#show2',function(e)
+         {
              var toastHTML = '<span>Do you see the 24 blocks? Each represents one hour of your day.</span> <button class="btn-flat toast-action">Got it</button>';
              M.toast({html: toastHTML});
          });
+
+
+
     </script>
 
   </body>
