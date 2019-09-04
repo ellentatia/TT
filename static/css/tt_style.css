@@ -181,8 +181,8 @@
      height: 22px;
      border-top: 2px solid transparent;
      border-left: 2px solid transparent;
-     border-right: 2px solid #ffe082;
-     border-bottom: 2px solid #ffe082;
+     border-right: 2px solid #fec746;
+     border-bottom: 2px solid #fec746;
      -webkit-transform: rotate(40deg);
              transform: rotate(40deg);
      -webkit-backface-visibility: hidden;
@@ -204,7 +204,7 @@
      height: 22px;
      border-top: none;
      border-left: none;
-     border-right: 2px solid #ffe082;
+     border-right: 2px solid #fec746;
      border-bottom: none;
      -webkit-transform: rotate(90deg);
              transform: rotate(90deg);
@@ -274,8 +274,8 @@
      top: 0;
      width: 20px;
      height: 20px;
-     border: 2px solid #ffe082;
-     background-color: #ffe082;
+     border: 2px solid #fec746;
+     background-color: #fec746;
      z-index: 0;
    }
 
@@ -287,8 +287,8 @@
 
    [type="checkbox"].filled-in.tabbed:checked:focus + span:not(.lever):after {
      border-radius: 2px;
-     background-color: #ffe082;
-     border-color: #ffe082;
+     background-color: #fec746;
+     border-color: #fec746;
    }
 
    [type="checkbox"].filled-in:disabled:not(:checked) + span:not(.lever):before {
