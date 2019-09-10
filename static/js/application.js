@@ -1,3 +1,7 @@
+
+
+
+//Counting checkboxes
 function roundToTwo(num)
 {
     return +(Math.round(num + "e+2")  + "e-2");
@@ -18,6 +22,7 @@ function checkboxes()
      modalContent.innerHTML = total+"%";
  }
 
+//Modal
 document.addEventListener("DOMContentLoaded", function()
 {
        const box = document.querySelectorAll(".modal");
@@ -30,4 +35,18 @@ document.addEventListener("DOMContentLoaded", function()
        });
  });
 
+//Pages
+function showintroductionPage() {
+  hideAllPages();
+  document.getElementById("introductionPage").style.display = "block";
+}
+function instructionPage() {
+  hideAllPages();
+  document.getElementById("instructionPage").style.display = "block";
+}
+function showstartPage() {
+  hideAllPages();
+  document.getElementById("startPage").style.display = "block";
+  listForm();
+}
 
