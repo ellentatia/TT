@@ -30,4 +30,21 @@ document.addEventListener("DOMContentLoaded", function()
        });
  });
 
+ //sections
+
+ function hideAllPages() {
+  document.getElementById("introductionPage").style.display = "none";
+  document.getElementById("instructionsPage").style.display = "none";
+  document.getElementById("StartPage").style.display = "none";
+
+}
+function showinstructionsPage() {
+  hideAllPages();
+  document.getElementById("instructionsPage").style.display = "block";
+}
+function showStartPage() {
+  hideAllPages();
+  document.getElementById("StartPage").style.display = "block";
+}
+
 
