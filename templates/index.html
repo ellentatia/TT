@@ -61,7 +61,7 @@
     <br>
     <br>
                 <center><button class="btn waves-effect blue-grey darken-4 z-depth-0 modal-trigger" style="background-color:#0a1323 font-color:white bold"
-                    type= "submit" value="howtoplay" onclick="showinstructionPage()">HOW TO PLAY</button></center>
+                    type= "submit" value="howtoplay" onclick="showinstructionsPage()">HOW TO PLAY</button></center>
                     <button class="btn waves-effect blue-grey darken-4 z-depth-0 modal-trigger" style="background-color:#0a1323 font-color:white bold"
                     type= "submit" value="howtoplay" onclick="showstartPage()">START</button></center>
         </div>
@@ -122,7 +122,7 @@
     <!--end of Instructions page-->
 
     <!--Start Page-->
-    <section id="StartPage" style="display:none;">
+    <section id="startPage" style="display:none;">
       <div>
               <center>
                   <br/><br/>
@@ -403,6 +403,25 @@
 <!--Checkbox function-->
 <!--Modal Initialization-->
      <script src="/static/js/application.js"></script>
+
+     <script>
+      //sections
+
+ function hideAllPages() {
+  document.getElementById("introductionPage").style.display = "none";
+  document.getElementById("instructionsPage").style.display = "none";
+  document.getElementById("startPage").style.display = "none";
+
+}
+function showinstructionsPage() {
+  hideAllPages();
+  document.getElementById("instructionsPage").style.display = "block";
+}
+function showstartPage() {
+  hideAllPages();
+  document.getElementById("startPage").style.display = "block";
+}
+     </script>
 
   </body>
 </html>
