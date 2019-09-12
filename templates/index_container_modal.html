@@ -313,28 +313,5 @@
 <!--Modal Initialization-->
      <script src="/static/js/Checkbox-count.js"></script>
 
-     <script>
-         $(document).on('click','#show',function(e)
-         {
-             var toastHTML = '<span>Do you see the 24 blocks? Each represents one hour of your day.</span> <button id="show2" class="btn-flat toast-action">next</button>';
-             M.toast({html: toastHTML, displayLength: 16000});
-         });
-
-         $(document).on('click','#show2',function(e)
-         {
-             var toastHTML = '<span>Think about yesterday. Roughly, what times was your child exposed to your language?</span> <button id="show3" class="btn-flat toast-action">next</button>';
-             M.toast({html: toastHTML, displayLength: 14000});
-         });
-
-         $(document).on('click','#show3',function(e)
-         {
-             var toastHTML = '<span>Click each box this applies to. When you finish, hit “calculate” to see your result.</span> <button class="btn-flat toast-action">Start!</button>';
-             M.toast({html: toastHTML, displayLength: 12000});
-         });
-
-
-
-    </script>
-
   </body>
 </html>
