@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function()
  function hideAllPages() {
   document.getElementById("introductionPage").style.display = "none";
   document.getElementById("instructionsPage").style.display = "none";
-  document.getElementById("StartPage").style.display = "none";
+  document.getElementById("startPage").style.display = "none";
 
 }
 function showinstructionsPage() {
@@ -44,7 +44,7 @@ function showinstructionsPage() {
 }
 function showStartPage() {
   hideAllPages();
-  document.getElementById("StartPage").style.display = "block";
+  document.getElementById("startPage").style.display = "block";
 }
 
 
