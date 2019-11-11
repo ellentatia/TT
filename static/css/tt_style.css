@@ -25,6 +25,14 @@
     line-height: 14pt!important;
     font-weight: bold!important;
    }
+.constelations{
+    font-family: adelle-sans !important;
+    font-size: 25pt!important;
+    line-height:35pt!important;
+    text-transform:bold!important;
+    font-weight: bold!important;
+    color:black !important;
+}
 .headlineB {
     font-family: adelle-sans!important;
     color: rgba(0,0,0,1)!important;
