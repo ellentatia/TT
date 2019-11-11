@@ -398,7 +398,7 @@
     <!--end Start Page-->
 
         <!--option page-->
-    <section id="optionPage">
+    <section id="optionPage" style="display:none;">
     <div >
     <div class="container" >
       <section id="header">
@@ -465,6 +465,7 @@ Find others in your household constellation [LINK https://www.thealmacollective.
   document.getElementById("introductionPage").style.display = "none";
   document.getElementById("instructionsPage").style.display = "none";
   document.getElementById("startPage").style.display = "none";
+  document.getElementById("optionPage").style.display ="none";
 
 }
 function showinstructionsPage() {
@@ -474,6 +475,10 @@ function showinstructionsPage() {
 function showstartPage() {
   hideAllPages();
   document.getElementById("startPage").style.display = "block";
+}
+function showoptionPage() {
+  hideAllPages();
+  document.getElementById("optionPage").style.display = "block";
 }
      </script>
 
