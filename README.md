@@ -3,7 +3,7 @@
 <h3>About</h3>
 <p>Following the idea that in order to learn a language one needs to be exposed to it.
   Time tracker is a tool developed by <a href="https://www.thealmacollective.com/"><b>TAC - The Alma Collective</b></a> to help international parents to measure the amount of time their kids are exposed to their language.
-  It is part of a workshop and became the <>Startup's to be first</strong> webapp.</p>
+  It is part of a workshop and became the Startup's to be first webapp.</p>
   
  <h3>Technologies used</h3>
  <h5>FRONTEND
