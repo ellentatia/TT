@@ -11,7 +11,7 @@
     <li>HTML 5</li>
     <p>
     <li>CSS</li>
-    <p>Based on the Materialize css framework with customizations to adapt to TAC's style.</p>
+    <p>Based on the Materialize CSS framework with customizations to adapt to TAC's style.</p>
     <li>Java Script</li>
     <p> For this app I used pure java script, no framework applied.</p>
    <li>Hosted on Heroku</li>
